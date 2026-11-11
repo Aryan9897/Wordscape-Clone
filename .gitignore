@@ -1,0 +1,30 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials*.json
+service-account*.json
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local Claude Code settings
+.claude/
